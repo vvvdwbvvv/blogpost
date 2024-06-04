@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import posts from '../metadata.json'
 import { useRoute } from 'vitepress'
-import Home from './Pages/Home.vue'
+import Home from './Page/home.vue'
 import Article from './components/Article.vue'
 
 const route = useRoute()
