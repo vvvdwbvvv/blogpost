@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vitepress",
-    "build": "vitepress build --mpa && node ./.vitepress/genFeed",
-    "serve": "vitepress serve"
+    "dev": "../node_modules/.bin/vitepress",
+    "build": "../node_modules/.bin/vitepress build --mpa && node docs/.vitepress/genFeed",
+    "serve": "../node_modules/.bin/vitepress serve"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.4.1",
